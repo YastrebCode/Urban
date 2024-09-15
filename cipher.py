@@ -21,7 +21,7 @@ def brute_forcer(number, dividers, count):
 
 if __name__ == '__main__':
     try:
-        print(request(int(input("Введите число"))))
+        print(request(int(input("Введите число:   "))))
     except:
         print("Для особо одарённых: число - это не буква\nИ не пытайся ломать то, что работает\nРаботает - "
               "не лезь!))))")
